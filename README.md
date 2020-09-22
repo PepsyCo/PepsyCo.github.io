@@ -1,3 +1,3 @@
-# PepsyCoxjkrtur.github.io
+# PepsyCo.github.io
 
 So you have chosen... death
