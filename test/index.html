@@ -1,42 +1,54 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <title>Page Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="1245678901234567890"
-        android:id="@+id/button1"/>
+<body>
+  <div class="header">
+    <h1>Our Website</h1>
+    <p>A <b>responsive</b> website created by us.</p>
+  </div>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CANCEL IT"
-        android:id="@+id/button2"
-        android:layout_below="@id/button1"
-        android:layout_alignLeft="@id/button1" />
-</RelativeLayout>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+  <div class="navbar">
+    <a href="#" class="active">Home</a>
+    <a href="#">News</a>
+    <a href="#">Tchat</a>
+    <a href="#" class="right">Salut</a>
+  </div>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:height="200dp"
-        android:text="1245678901234567890"
-        android:id="@+id/button1"/>
+  <div class="row">
+    <div class="side">
+      <h2>About Us</h2>
+      <h5>Photo the établissement:</h5>
+      <p align="right"><img border="0" src="https://d1c2gz5q23tkk0.cloudfront.net/assets/networks/440/public_website_header_logo/-original.jpg?1568708727" width="100" height="17"></p>
+      <p>Réaliser dans l'etablissement La Mache, avec une date de realisation de 2020/2022.</p>
+      <h3>More Text</h3>
+      <p>BLABLABLABLABLABLA</p>
+      <div class="fakeimg" style="height:60px;">Image</div><br>
+      <div class="fakeimg" style="height:60px;">Image</div><br>
+      <div class="fakeimg" style="height:60px;">Image</div>
+    </div>
+    <div class="main">
+      <h2>TITLE HEADING 4°</h2>
+      <h5>Je suis au toillete</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>BLABLABLABLABLABLA</p>
+      <br>
+      <h2>TITLE HEADING 2 et c'est cool</h2>
+      <h5>je suis sortie des toillete</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text about toillete</p>
+      <p>BLABLABLABLABLABLA</p>
+    </div>
+  </div>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CANCEL IT"
-        android:id="@+id/button2"
-        android:layout_toRightOf="@id/button1" />
-</RelativeLayout>
+  <div class="footer">
+    <h2>Footer</h2>
+  </div>
+</body>
+</html>
