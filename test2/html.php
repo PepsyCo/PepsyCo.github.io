@@ -24,7 +24,7 @@
 			<div id="loading">
 				<center>
 				<span class="info" id="info">Chargement du chat en cours...</span><br />
-				<img src="ajax-loader.gif" alt="patientez...">
+				<img src="image\ajax-loader.gif" alt="patientez...">
 				</center>
 			</div>
 		</div>
